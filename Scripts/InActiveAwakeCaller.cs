@@ -20,7 +20,7 @@ public class InActiveAwakeCaller : MonoBehaviour
 
             if (monoBehaviour == null)
             {
-                Debug.LogError("[InActiveAwakeCaller] Unsafe.As return null!");
+                Debug.LogError("[InActiveAwakeCaller] Unsafe.As returned null!");
                 continue;
             }
 
