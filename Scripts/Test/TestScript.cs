@@ -17,7 +17,7 @@ public class TestScript : MonoBehaviour, IInActiveAwake
         Debug.Log("[TestScript] Awake!");
     }
 
-    /* to enable-disable script */
+    /* to be able to enable-disable script */
     private void Update()
     {
         
