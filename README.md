@@ -7,6 +7,6 @@ Unity does not call Awake on inactive GameObjects, a work-around for this.
 - Drag and drop "Inactive Awake Caller" prefab to your scene (the scene that has the inactive GameObjects)
 - That's it, your InActiveAwake() function will be called if the GameObject is inactive while scene loading
 
-There is a test scene and script for this, you can check [go](TestScript.cs){:target="_blank" rel="noopener"} for a example
+There is a test scene and script for this, you can check [TestScript.cs](https://github.com/frekons/unity-inactive-awake/blob/main/Scripts/Test/TestScript.cs){:target="_blank" rel="noopener"} for a example
 
 Note: You do NOT need a preLoadScene for that, I added it to test the result.
